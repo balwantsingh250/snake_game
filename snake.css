@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(white,rgba(0, 0, 0, 0.438),white);
+}
+#contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+canvas{
+    display: block;
+}
+#controller{
+    margin: auto;
+    bottom: 100px;
+    height: 50px;
+    width: 300px;
+    background: rgba(255, 255, 0, 0.24);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    button{
+        width: 55px;
+        height: 30px;
+        background: red;
+        border: 1px solid black;
+        border-radius: 14px;
+    }
+}
